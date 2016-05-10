@@ -1,0 +1,230 @@
+@import 'settings';
+@import 'foundation';
+
+
+@media all and (-webkit-min-device-pixel-ratio:1) {
+  .is-webkit{
+    display: block !important;
+    max-height: none !important;
+  }
+  [class="no-webkit"]{
+     display: none !important;
+  }
+}
+
+
+.background {
+  background: #303030;
+}
+
+// @import 'styles';
+
+.radius {
+  td {
+    border: none !important;
+  }
+
+  a {
+    font-size: 16px !important;
+    letter-spacing: 1px;
+  }
+}
+
+.header {
+
+  th {
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    color: $gray;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    width: 130px;
+    margin: 10px 0;
+  }
+}
+
+.headerimg {
+
+  th {
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.light-gray {
+  background: $light-gray !important;
+}
+
+.receipt {
+  h2 {
+    color: white;
+    background: $primary-color;
+    padding: 15px 0;
+    margin: 0;
+  }
+
+  .table-header {
+    background: #cfe9f9;
+  }
+
+  .table-header th {
+    // padding: 8px 0 6px 0;
+    padding: 8px 0;
+  }
+
+  .table-header h4 {
+    color: black;
+    margin: 0;
+  }
+
+  .table-prices th {
+    padding: 0;
+  }
+
+  .table-support {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    border: 1px solid $medium-gray;
+  }
+
+  .table-prices, .table-total {
+    padding: 0;
+
+    .table-prices table th {
+      border: 1px solid $medium-gray;
+      height: 60px;
+      vertical-align: middle;
+    }
+  }
+
+
+  .table-prices table th th {
+    border: 1px solid $medium-gray;
+    height: 60px;
+    vertical-align: middle;
+  }
+
+
+  .table-address, .table-summary {
+    th {
+      border: 1px solid $medium-gray;
+      vertical-align: middle;
+      margin: 0;
+      padding: 0 5px;
+      padding: 7px 0;
+
+
+      th {
+        border: none;
+      }
+    }
+
+    center {
+      min-width: auto;
+      width: auto;
+    }
+  }
+
+
+  .table-address {
+    th {
+      vertical-align: top;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .address {
+    font-size:12px;
+  }
+
+}
+
+
+
+
+.introduction {
+  p {
+    font-size:13px;
+  }
+
+  img {
+    margin-bottom: 5px;
+  }
+
+  .button table td {
+    padding: 20px;
+    font-size: 30px;
+    color: $primary-color;
+    background: white;
+    // border: 2px solid green;
+    box-shadow: 0px 0px 0px 3px inset;
+  }
+}
+
+.lines {
+  margin-bottom:-46px;
+  .line th {
+    background: $primary-color;
+    height: 3px;
+  }
+
+  .large-offset-2 {
+    padding-left: 112.66667px !important;
+  }
+
+}
+
+.footer th {
+  padding: 0;
+  vertical-align: middle;
+
+  padding-bottom: 7px;
+  padding-top: 7px;
+
+  p {
+    margin: 0;
+    color: $dark-gray;
+    font-size: 12px;
+  }
+}
+
+.thanks-footer {
+  color: #a2a2a2;
+  font-size: 13px;
+}
+
+//
+// .table-heading {
+//   background: #cfe9f9;
+//   padding: 8px 0 !important;
+//   padding-top: 20px;
+//   padding: 0;
+// }
+//
+// .table-heading th {
+//   // padding: 8px 0 6px 0;
+// }
+//
+// .table-heading h4 {
+//   color: black;
+//   margin: 0;
+// }
+//
+// .receipt table th {
+//   border: 1px solid $light-gray;
+// }
