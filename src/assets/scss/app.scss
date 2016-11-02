@@ -66,11 +66,27 @@
 .content {
   border: 1px solid $medium-gray;
   background: $white !important;
-  // box-shadow: 0px 4px 7px rgba(0,0,0,0.1);
+  // box-shadow: 0px 3px 4px rgba(0,0,0,0.1);
 }
 
 .white {
   color: $white !important;
+}
+
+.black {
+  color: $black !important;
+}
+
+.light-gray {
+  color: $light-gray !important;
+}
+
+.gray {
+  color: $gray !important;
+}
+
+.dark-gray {
+  color: $dark-gray !important;
 }
 
 .bg-primary {
