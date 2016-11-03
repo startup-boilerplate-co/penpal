@@ -1,4 +1,4 @@
-# Penpal – Email templates for SaaS startups | startup-boilerplate.co
+# Penpal – Email templates for SaaS startups
 Penpal is a collection of open-source email templates built on top of [Foundation's inky templating engine](http://foundation.zurb.com/emails), consisting of 20+ commonly needed email templates for all parts of the startup funnel from newsletter signup, to first sale, to lifetime value emails of a customer.
 
 Penpal is part of [startup boilerplate](http://startup-boilerplate.co), an opinionated set of solutions for commonly used startup challenges, including email templates, marketing/sales funnels & integrations, as well as common frontend/backend solutions for things any app needs, such as login forms, email verifications, user permissions, and so on. These solutions are built on top of Polymer, Meteor and GraphQL.
