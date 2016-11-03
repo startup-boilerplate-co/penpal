@@ -1,21 +1,10 @@
-# Foundation for Emails Template
+# Penpal – Email templates for SaaS startups | startup-boilerplate.co
+Penpal is a collection of open-source email templates built on top of [Foundation's inky templating engine](http://foundation.zurb.com/emails), consisting of 20+ commonly needed email templates for all parts of the startup funnel from newsletter signup, to first sale, to lifetime value emails of a customer.
 
-[![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
+Penpal is part of [startup boilerplate](http://startup-boilerplate.co), an opinionated set of solutions for commonly used startup challenges, including email templates, marketing/sales funnels & integrations, as well as common frontend/backend solutions for things any app needs, such as login forms, email verifications, user permissions, and so on. These solutions are built on top of Polymer, Meteor and GraphQL.
 
-**Please open all issues with this template on the main [Foundation for Emails](http://github.com/zurb/foundation-emails/issues) repo.**
+For details on how to use the individual inky components, please refer to the [Foundation for Email docs](http://foundation.zurb.com/emails/docs/)
 
-This is the official starter project for [Foundation for Emails](http://foundation.zurb.com/emails), a framework for creating responsive HTML devices that work in any email client. It has a Gulp-powered build system with these features:
-
-- Handlebars HTML templates with [Panini](http://github.com/zurb/panini)
-- Simplified HTML email syntax with [Inky](http://github.com/zurb/inky)
-- Sass compilation
-- Image compression
-- Built-in BrowserSync server
-- Full email inlining process
-
-## Installation
-
-To use this template, your computer needs [Node.js](https://nodejs.org/en/) 0.12 or greater. The template can be installed with the Foundation CLI, or downloaded and set up manually.
 
 ### Using the CLI
 
@@ -25,26 +14,17 @@ Install the Foundation CLI with this command:
 npm install foundation-cli --global
 ```
 
-Use this command to set up a blank Foundation for Emails project:
+### Cloe repo & install npm dependencies 
+
+First clone the repo:
 
 ```bash
-foundation new --framework emails
+git clone ...
 ```
 
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
-### Manual Setup
-
-To manually set up the template, first download it with Git:
+Then install the necessary npm dependencies:
 
 ```bash
-git clone https://github.com/zurb/foundation-emails-template projectname
-```
-
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
 npm install
 ```
 
