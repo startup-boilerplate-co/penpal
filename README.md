@@ -5,29 +5,6 @@ Penpal is part of [startup boilerplate](http://startup-boilerplate.co), an opini
 
 For details on how to use the individual inky components, please refer to the [Foundation for Email docs](http://foundation.zurb.com/emails/docs/). Major props to sendwithus for writing an amazing guide on [how to send emails like a startup](https://www.sendwithus.com/resources/guide). The email templates are heavily influenced by this guide.
 
-### The currently available templates are:
-* Welcome: New signup for newsletter
-* Welcome: New app signup, intro via welcome video
-* Welcome: New app signup, intro via multiple options
-* Welcome: New app signup, intro via quick 1,2,3 steps
-* Welcome: New app signup, intro via detailed 1,2,3 steps
-* Welcome: Referral by other users to sign up
-
-* Onboarding: New user, suggest demo to continue
-* Onboarding: New user, trial expiring soon, update your billing
-* Onboarding: New user, trial expired and was never used, renew for 30 days
-* Onboarding: New user, trial expired and was used, renew for 7 days
-
-* Lifetime: Newsletter
-* Lifetime: Product Updates
-* Lifetime: Net Promoter score questionaire
-* Lifetime: Follow up on old user, reiterates benefits
-* Lifetime: E-Book download
-* Lifetime: In-depth article to share
-
-* Transactional: Reset password
-* Transactional: Receipt/invoice
-
 **Alright, let's have a look at some templates ʕ•͡ᴥ•ʔ**
 
 
@@ -57,7 +34,25 @@ For details on how to use the individual inky components, please refer to the [F
 <img src='https://cloud.githubusercontent.com/assets/3836411/19974123/5c8f3e42-a222-11e6-9fde-04a9f504e28a.jpg' width='400'>
 <img src='https://cloud.githubusercontent.com/assets/3836411/19974119/5c6151da-a222-11e6-8ecc-489232f6aac1.jpg' width='400'>
 
-
+**Currently available templates are:**
+* Welcome: New signup for newsletter
+* Welcome: New app signup, intro via welcome video
+* Welcome: New app signup, intro via multiple options
+* Welcome: New app signup, intro via quick 1,2,3 steps
+* Welcome: New app signup, intro via detailed 1,2,3 steps
+* Welcome: Referral by other users to sign up
+* Onboarding: New user, suggest demo to continue
+* Onboarding: New user, trial expiring soon, update your billing
+* Onboarding: New user, trial expired and was never used, renew for 30 days
+* Onboarding: New user, trial expired and was used, renew for 7 days
+* Lifetime: Newsletter
+* Lifetime: Product Updates
+* Lifetime: Net Promoter score questionaire
+* Lifetime: Follow up on old user, reiterates benefits
+* Lifetime: E-Book download
+* Lifetime: In-depth article to share
+* Transactional: Reset password
+* Transactional: Receipt/invoice
 
 ### Todos
 - [ ] Fine-tune paddings
