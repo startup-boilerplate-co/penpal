@@ -2,22 +2,9 @@
 @import 'foundation';
 
 
-@media all and (-webkit-min-device-pixel-ratio:1) {
-  .is-webkit{
-    display: block !important;
-    max-height: none !important;
-  }
-  [class="no-webkit"]{
-     display: none !important;
-  }
-}
-
-
-.background {
-  background: #303030;
-}
-
-// @import 'styles';
+////////////////////
+// Button border fix
+////////////////////
 
 .radius {
   td {
@@ -30,43 +17,28 @@
   }
 }
 
-.header {
+///////////////////////////////
+// padding fix for left padding
+///////////////////////////////
 
-  th {
-    vertical-align: middle;
-    padding: 0;
-    margin: 0;
-  }
 
-  h1 {
-    color: $gray;
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-  }
-
-  img {
-    width: 130px;
-    margin: 10px 0;
-  }
+.pd-left {
+  padding-left: $global-padding !important;
 }
 
-.headerimg {
-
-  th {
-    padding: 0;
-  }
-
-  img {
-    width: 100%;
-  }
+.tbl-cell {
+ display: table-cell !important;
 }
 
+
+
+/////////
+// Colors
+/////////
 
 .content {
   border: 1px solid $medium-gray;
   background: $white !important;
-  // box-shadow: 0px 3px 4px rgba(0,0,0,0.1);
 }
 
 .white {
@@ -114,8 +86,12 @@
 }
 
 
-.receipt {
-  h2 {
+
+//////////
+// Receipt
+//////////
+
+  .receipt-header {
     color: white;
     background: $primary-color;
     padding: 15px 0;
@@ -127,7 +103,6 @@
   }
 
   .table-header th {
-    // padding: 8px 0 6px 0;
     padding: 8px 0;
   }
 
@@ -165,6 +140,10 @@
   }
 
 
+  .no-fl {
+    padding: 0 !important;
+  }
+
   .table-address, .table-summary {
     th {
       border: 1px solid $medium-gray;
@@ -183,7 +162,7 @@
       min-width: auto;
       width: auto;
     }
-  }
+
 
 
   .table-address {
@@ -205,15 +184,11 @@
 
 
 
+
+//////////
+// Circles
+//////////
 .introduction {
-  p {
-    font-size:13px;
-  }
-
-  img {
-    margin-bottom: 5px;
-  }
-
   .button table td {
     padding: 20px;
     font-size: 30px;
@@ -223,18 +198,12 @@
   }
 }
 
-.lines {
-  margin-bottom:-46px;
-  .line th {
-    background: $primary-color;
-    height: 3px;
-  }
 
-  .large-offset-2 {
-    padding-left: 112.66667px !important;
-  }
 
-}
+
+/////////
+// Footer
+/////////
 
 .footer th {
   padding: 0;
@@ -248,9 +217,4 @@
     color: $dark-gray;
     font-size: 12px;
   }
-}
-
-.thanks-footer {
-  color: #a2a2a2;
-  font-size: 13px;
 }

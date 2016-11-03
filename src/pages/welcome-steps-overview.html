@@ -1,94 +1,63 @@
 ---
 subject: My Email Subject
 ---
-  <wrapper class='background'>
-    <spacer size="50"></spacer>
-    <container>
-      <row class='collapse headerimg'>
-        <columns small="12">
-          <img src="http://placehold.it/590x190/663399">
-        </columns>
-      </row>
-    </container>
-
-
-
-    <container>
-      <spacer size="50"></spacer>
-      <h1 class='text-center'>Welcome to Pigments</h1>
-
+<wrapper>
+  <container>{{> header}}</container>
+  <container class='content'>
+    <spacer size='30'></spacer>
 
       <row>
-        <columns small='12' large="10" class="large-offset-1">
+        <columns small='12' large='10' class='large-offset-1'>
+          <h1 class='text-center'>Welcome to Pigments</h1>
           <p class='text-center'>It's so nice to have you! We have an inkling that you'll love it here. Please verify your email by clicking below.</p>
-          <spacer size="35"></spacer>
+          <spacer size='35'></spacer>
           <center>
-            <button class="success large radius text-center" href="http://zurb.com">VERIFY YOUR ACCOUNT</button>
+            <button class='success large radius text-center' href='http://zurb.com'>VERIFY YOUR ACCOUNT</button>
           </center>
+          <spacer size='10'></spacer>
+          <p class='text-center'>Can't click? Copy this link:<br><a href=''>asdfasdfasdfadsf</a></p>
+          <spacer size='50'></spacer>
         </columns>
-        <columns small="1"></columns>
+        <columns small='1'></columns>
       </row>
 
 
-      <spacer size="10"></spacer>
-      <p class='text-center'>Can't click? Copy this link:<br><a href=''>asdfasdfasdfadsf</a></p>
-      <spacer size="50"></spacer>
-    </container>
 
-
-
-    <container class='light-gray'>
-      <spacer size="50"></spacer>
-
-      <row>
-        <columns small="12">
+      <row class='bg-light-gray'>
+        <columns small='12' large='10' class='large-offset-1'>
+          <spacer size='40'></spacer>
           <p class='text-center'><strong>Get started with your shop profile in three simple steps</strong></p>
+          <spacer size='30'></spacer>
         </columns>
-      </row>
-      <spacer size="30"></spacer>
-
-      <row class='lines collapse show-for-large'>
-        <columns class='line large-offset-2' small="12" large="3"></columns>
-        <columns class='line' small="12" large="3"></columns>
-        <columns small="12" large="2"></columns>
+        <columns small='1'></columns>
       </row>
 
-      <row class='introduction'>
-        <columns small="12" large="4">
+      <row class='introduction bg-light-gray'>
+        <columns small='12' large='4'>
           <center>
-            <button class="large rounded"><strong>1</strong></button>
+            <button class='circle large rounded'><strong>1</strong></button>
           </center>
-          <h2 class='text-center'>Verify your email</h2>
+          <h4 class='text-center'>Verify your email</h4>
           <p class='text-center'>Click the link in this email to verify your account and help us avoid fake accounts.</p>
-          <spacer size="30"></spacer>
+          <spacer size='30'></spacer>
         </columns>
-        <columns small="12" large="4">
+        <columns small='12' large='4'>
           <center>
-            <button class="large rounded"><strong>2</strong></button>
+            <button class='circle large rounded'><strong>2</strong></button>
           </center>
-          <h2 class='text-center'>Set up products</h2>
+          <h4 class='text-center'>Set up products</h4>
           <p class='text-center'>Define which products you can print and give us more details about your shop.</p>
-          <spacer size="30"></spacer>
+          <spacer size='30'></spacer>
         </columns>
-        <columns small="12" large="4">
+        <columns small='12' large='4'>
           <center>
-            <button class="large rounded"><strong>3</strong></button>
+            <button class='circle large rounded'><strong>3</strong></button>
           </center>
-          <h2 class='text-center'>Publish your shop</h2>
+          <h4 class='text-center'>Publish your shop</h4>
           <p class='text-center'>Once you're all set up, wait for us to approve your store and start getting customers.</p>
-          <spacer size="30"></spacer>
+          <spacer size='30'></spacer>
         </columns>
       </row>
-
-      <spacer size="10"></spacer>
     </container>
-
-
-    <container>
-      {{> footer}}
-    </container>
-
-    <spacer size="15"></spacer>
-    <p class="thanks-footer text-center">Thank you very much for choosing pigments -`❤´-</p>
-    <spacer size="30"></spacer>
+    <container>{{> footer}}</container>
   </wrapper>

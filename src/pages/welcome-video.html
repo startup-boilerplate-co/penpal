@@ -1,14 +1,13 @@
 ---
 subject: My Email Subject
 ---
-  <wrapper class='background'>
-    <spacer size='50'></spacer>
-
-    <container>
-      <spacer size='50'></spacer>
+  <wrapper>
+    <container>{{> header}}</container>
+    <container class='content'>
+      <spacer size='30'></spacer>
 
       <h1 class='text-center'>Welcome to Pigments</h1>
-      <h4 class='text-center'>Watch a quick demo to learn more</h4>
+      <h4 class='text-center gray'>Watch a quick demo to learn more</h4>
 
       <spacer size='30'></spacer>
 
@@ -33,8 +32,7 @@ subject: My Email Subject
           <p class='thanks-footer text-center'>Insert your one liner slogan here.</p>
         </columns>
       </row>
+      <spacer size='20'></spacer>
     </container>
-
-    <spacer size='50'></spacer>
-
+    <container>{{> footer}}</container>
   </wrapper>

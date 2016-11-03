@@ -1,247 +1,167 @@
 ---
 subject: My Email Subject
 ---
-  <wrapper class='background'>
-    <spacer size="50"></spacer>
-    <container>
-      <row class='header'>
-        <columns small="6">
-          <img class='no-webkit' src="assets/img/pigments_logo.png">
-          <!--[if !mso 9]><!-->
-          <div class="is-webkit" style="display:none; max-height:0px; overflow:hidden;">
-            <img src="assets/img/pigments_logo.svg">
-          </div>
-          <!--<![endif]-->
+<wrapper>
+  <container>{{> header}}</container>
+  <container class='content'>
+    <spacer size='30'></spacer>
+    <row>
+      <columns small='12' large='10' class='large-offset-1'>
+          <spacer size='50'></spacer>
+          <h1 class='text-center'>Thank you for your purchase!</h1>
+
+          <p class='text-center'>You're the best! Here's the animation template you bought.</p>
+          <spacer size='35'></spacer>
+
+          <center>
+            <button class='success large radius' href='http://zurb.com'>DOWNLOAD THE TEMPLATE</button>
+          </center>
+
+          <spacer size='30'></spacer>
+          <p class='text-center'>Scroll past the receipt for instructions on how to use the template.</p>
+          <spacer size='50'></spacer>
+      </columns>
+      <columns large='1'></columns>
+    </row>
+
+
+
+
+
+    <row class='table-address'>
+      <h2 class='text-center receipt-header'>Your receipt</h2>
+      <columns small='12' large='6'>
+        <img src='assets/img/business_36dp.png'>
+        <p class='text-left address'>
+          Receipt Sent To<br>
+          <strong>Mark Schroeder</strong><br><br>
+          P.O. Box 18728, Irvin Kershner<br>
+          DeLorean, New York,12543<br>
+          United States Of America<br>
+          <a href=''>mark.schroeder@gmail.com</a>
+        </p>
+      </columns>
+
+      <columns small='12' large='6' class='pd-left'>
+        <img src='assets/img/business_36dp.png'>
+        <p class='text-left'>
+          Receipt Sent From<br>
+          <strong>Pigments Inc.</strong><br><br>
+          BITSPACE, 6/F PDCP Bank Center,<br>
+          L. P. Leviste cor. V. A. Rufino,<br>
+          Salcedo Village, Makati City, 1227,<br>
+          Philippines<br>
+          <a href=''>andreas@pigments.io</a>
+        </p>
+      </columns>
+    </row>
+
+    <row class='table-summary'>
+      <columns small='4'>
+        <center>
+          <img src='assets/img/business_36dp.png'>
+        </center>
+        <p class='text-center'>Receipt No.<br><strong>#A-2821862</p>
+      </columns>
+      <columns small='4'>
+        <center>
+          <img src='assets/img/business_36dp.png'>
+        </center>
+        <p class='text-center'>Receipt Date<br><strong>Jun 18, 2016</p>
+      </columns>
+      <columns small='4'>
+        <center>
+          <img src='assets/img/business_36dp.png'>
+        </center>
+        <p class='text-center'>Receipt Total<br><strong>$3.00 (USD)</p>
+      </columns>
+    </row>
+
+
+    <row class='table-header collapse'>
+      <columns small='6'>
+        <h4 class='text-center'><strong>Description</strong></h4>
+      </columns>
+      <columns small='2'>
+        <h4 class='text-center'><strong>Price</strong></h4>
+      </columns>
+      <columns small='2'>
+        <h4 class='text-center'><strong>Quantity</strong></h4>
+      </columns>
+      <columns small='2'>
+        <h4 class='text-center'><strong>Total</strong></h4>
+      </columns>
+    </row>
+
+    <row class='collapse'>
+      <columns small='8' class='table-prices'>
+        <columns small='9' class='no-fl'>
+          <p class='text-center'><strong>Animation Template</strong><br>&raquo;startup product launch&laquo;</p>
         </columns>
-        <columns small="6">
-          <h1 class="text-right"><strong>RECEIPT</strong></h1>
+        <columns small='3' class='no-fl'>
+          <p class='text-center'>$3.00</p>
         </columns>
-      </row>
+      </columns>
 
-      <row class='collapse headerimg'>
-        <columns small="12">
-          <img src="http://placehold.it/590x190/663399">
-        </columns>
-      </row>
-    </container>
-
-
-
-    <container class='light-gray'>
-      <spacer size="50"></spacer>
-      <h1 class='text-center'>Thank you for your purchase!</h1>
-
-      <p class='text-center'>You're the best! Here's the animation template you bought.</p>
-      <spacer size="35"></spacer>
-
-      <center>
-        <button class="success large radius" href="http://zurb.com">DOWNLOAD THE TEMPLATE</button>
-      </center>
-
-      <spacer size="30"></spacer>
-      <p class='text-center'>Scroll past the receipt for instructions on how to use the template.</p>
-      <spacer size="50"></spacer>
-    </container>
-
-
-
-    <container class='receipt'>
-      <h2 class='text-center'>Your receipt</h2>
-
-
-      <row class='table-address'>
-        <columns small="6">
-          <columns small="3">
-            <center>
-              <img src="assets/img/business_36dp.png">
-            </center>
+      <columns small='4' class='table-total'>
+        <row class='collapse table-prices'>
+          <columns small='6'>
+            <p class='text-center'>1</p>
           </columns>
-          <columns small="9">
-            <p class='text-left address'>Receipt Sent To<br>
-            <strong>Mark Schroeder</strong><br><br>
-            P.O. Box 18728, Irvin Kershner<br>
-            DeLorean, New York,12543<br>
-            United States Of America<br>
-            <a href=''>mark.schroeder@gmail.com</a></p>
-          </columns>
-        </columns>
-
-
-        <columns small="6">
-          <columns small="3">
-            <center>
-              <img src="assets/img/business_36dp.png">
-            </center>
-          </columns>
-          <columns small="9">
-            <p class='text-left'>
-              Receipt Sent From<br>
-              <strong>Pigments Inc.</strong><br><br>
-            </p>
-            <p class='text-left address'>
-              BITSPACE, 6/F PDCP Bank Center,<br>
-              L. P. Leviste cor. V. A. Rufino,<br>
-              Salcedo Village, Makati City, 1227,<br>
-              Philippines<br>
-              <a href=''>andreas@pigments.io</a>
-            </p>
-          </columns>
-        </columns>
-      </row>
-
-
-      <row class='table-summary'>
-        <columns small="4">
-          <row>
-            <columns small="5">
-              <center>
-                <img src="assets/img/business_36dp.png">
-              </center>
-            </columns>
-            <columns small="7">
-              <p class='text-left'>Receipt No.<br><strong>#A-2821862</p>
-            </columns>
-          </row>
-        </columns>
-        <columns small="4">
-          <row>
-            <columns small="5">
-              <center>
-                <img src="assets/img/business_36dp.png">
-              </center>
-            </columns>
-            <columns small="7">
-              <p class='text-left'>Receipt Date<br><strong>Jun 18, 2016</p>
-            </columns>
-          </row>
-        </columns>
-        <columns small="4">
-          <row>
-            <columns small="5">
-              <center>
-                <img src="assets/img/business_36dp.png">
-              </center>
-            </columns>
-            <columns small="7">
-              <p class='text-left'>Receipt Total<br><strong>$3.00 (USD)</p>
-            </columns>
-          </row>
-        </columns>
-      </row>
-
-
-      <row class='table-header collapse'>
-        <columns small="6">
-          <h4 class='text-center'><strong>Description</strong></h4>
-        </columns>
-        <columns small="2">
-          <h4 class='text-center'><strong>Price</strong></h4>
-        </columns>
-        <columns small="2">
-          <h4 class='text-center'><strong>Quantity</strong></h4>
-        </columns>
-        <columns small="2">
-          <h4 class='text-center'><strong>Total</strong></h4>
-        </columns>
-      </row>
-
-      <row class='collapse'>
-
-        <columns small="8" class='table-prices'>
-          <columns small="9">
-            <p class='text-center'><strong>Animation Template</strong><br>&raquo;startup product launch&laquo;</p>
-          </columns>
-          <columns small="3">
+          <columns small='6'>
             <p class='text-center'>$3.00</p>
           </columns>
-        </columns>
+        </row>
+      </columns>
+    </row>
 
-        <columns small="4" class='table-total'>
-          <row class='collapse table-prices'>
-            <columns small="6">
-              <p class='text-center'>1</p>
-            </columns>
-            <columns small="6">
-              <p class='text-center'>$3.00</p>
-            </columns>
-          </row>
-        </columns>
-      </row>
+    <row class='collapse'>
+      <columns small='8' class='table-support tbl-cell'>
+        <p class='text-center'>We're happy to help you with your inquiries. <br>Drop us a line if you need help:<br><br><a href=''>andreas@pigments.io</a></p>
+      </columns>
 
-      <row class='collapse'>
-        <columns small="8" class='table-support'>
-          <p class='text-center'>We're happy to help you with your inquiries. <br>Drop us a line if you need help:<br><br><a href=''>andreas@pigments.io</a></p>
-        </columns>
-
-        <columns small="4" class='table-total'>
-          <row class='collapse table-prices'>
-            <columns small="6">
-              <p class='text-center'>Sub Total</p>
-            </columns>
-            <columns small="6">
-              <p class='text-center'>$6.00</p>
-            </columns>
-          </row>
+      <columns small='4' class='table-total tbl-cell'>
+        <row class='collapse table-prices'>
+          <columns small='6'>
+            <p class='text-center'>Sub Total</p>
+          </columns>
+          <columns small='6'>
+            <p class='text-center'>$6.00</p>
+          </columns>
+        </row>
 
 
-          <row class='collapse table-prices'>
-            <columns small="6">
-              <p class='text-center'>VAT 15%</p>
-            </columns>
-            <columns small="6">
-              <p class='text-center'>$0.30</p>
-            </columns>
-          </row>
+        <row class='collapse table-prices'>
+          <columns small='6'>
+            <p class='text-center'>VAT 15%</p>
+          </columns>
+          <columns small='6'>
+            <p class='text-center'>$0.30</p>
+          </columns>
+        </row>
 
 
-          <row class='collapse table-prices'>
-            <columns small="6">
-              <p class='text-center'>Shipping</p>
-            </columns>
-            <columns small="6">
-              <p class='text-center'>$0.00</p>
-            </columns>
-          </row>
+        <row class='collapse table-prices'>
+          <columns small='6'>
+            <p class='text-center'>Shipping</p>
+          </columns>
+          <columns small='6'>
+            <p class='text-center'>$0.00</p>
+          </columns>
+        </row>
 
 
-          <row class='table-header collapse'>
-            <columns small="6">
-              <p class='text-center'><strong>Total</strong></p>
-            </columns>
-            <columns small="6">
-              <p class='text-center'><strong>$6.20</strong></p>
-            </columns>
-          </row>
-        </columns>
-      </row>
-    </container>
+        <row class='table-header collapse'>
+          <columns small='6'>
+            <p class='text-center'><strong>Total</strong></p>
+          </columns>
+          <columns small='6'>
+            <p class='text-center'><strong>$6.20</strong></p>
+          </columns>
+        </row>
+      </columns>
+    </row>
 
-    <container class='light-gray'>
-      <spacer size="50"></spacer>
-
-      <row>
-        <columns small="8" class="large-offset-2">
-          <p class='text-center'><strong>How to customize your template</strong></p>
-          <p class='text-center'>We prepared an easy to use After Effects template for your designer to customize in just a few minutes.</p>
-        </columns>
-        <columns small="2"></columns>
-      </row>
-
-      <spacer size="40"></spacer>
-
-      <center>
-        <img src=''>
-      </center>
-
-      <spacer size="35"></spacer>
-    </container>
-
-
-    <container>
-      {{> footer}}
-    </container>
-
-    <spacer size="15"></spacer>
-    <p class="thanks-footer text-center">Thank you very much for choosing pigments -`❤´-</p>
-    <spacer size="30"></spacer>
-  </wrapper>
+  </container>
+  <container>{{> footer}}</container>
+</wrapper>

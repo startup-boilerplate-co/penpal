@@ -3,57 +3,46 @@ subject: My Email Subject
 ---
 
   <wrapper>
-    <spacer size="30"></spacer>
+    <container>{{> header}}</container>
+    <container class='content'>
+      <spacer size='30'></spacer>
 
-    <container>
-        <center>
-          <img src='http://placehold.it/100x50/EEEEEE'>
-        </center>
-    </container>
-
-    <spacer size="15"></spacer>
-
-    <container class='white'>
-      <spacer size="30"></spacer>
       <row>
-        <columns>
+        <columns small='12' large='10' class='large-offset-1'>
           <h1>Welcome to Pigments</h1>
-        </columns>
-      </row>
-
-      <row>
-        <columns small='12' large="8">
+          <spacer size='15'></spacer>
           <p>Hi Andreas,<br><br> I just wanted to take a quick moment to personally say hi and check if there's anything you need. I'm Andreas, the founder of Pigments and I'm always curious to hear from our customers.</p>
 
           <p>Give attitude slap owner's face at 5am until human fills food dish groom yourself 4 hours, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!</p>
           <p>so climb a tree, wait for a fireman jump to fireman then scratch his face yet kitty scratches couch bad kitty. Go into a room to decide you didn't want to be in there anyway sniff other cat's butt and hang jaw half open thereafter.</p>
-          <p>Steal the warm chair right after you get up. Immediately regret falling into bathtub get video posted to internet for chasing red dot so mark territory. Lick plastic bags. Howl uncontrollably for no reason get video posted to internet for chasing red dot yet chase the pig around the house. Jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed get video posted to internet for chasing red dot sun bathe ears back wide eyed.</p>
 
-          <spacer size="15"></spacer>
-          <button class="success large radius text-center" href="http://zurb.com">BOOK A DEMO</button>
+          <spacer size='15'></spacer>
+          <button class='success large radius' href='http://zurb.com'>BOOK A DEMO</button>
+        </columns>
+        <columns large='1'></columns>
+
+      </row>
+
+      <row class='collapse'>
+        <columns>
+          <spacer class='bg-light-gray' size='1.5'></spacer>
         </columns>
       </row>
 
-      <row>
-        <columns>
-          <spacer class='light-gray' size="1.5"></spacer>
-        </columns>
-      </row>
+      <spacer size='40'></spacer>
 
       <row>
-        <columns>
+        <columns small='12' large='10' class='large-offset-1'>
           <img src='http://placehold.it/70x70/EEEEEE'>
-          <spacer size="5"></spacer>
+          <spacer size='5'></spacer>
 
           <p>Andreas Galster<br>
           Founder of Pigments</p>
         </columns>
+        <columns large='1'></columns>
       </row>
-    </container>
 
-    <container class='light-gray'>
-      {{> footer}}
+      <spacer size='20'></spacer>
     </container>
-
-    <spacer size="40"></spacer>
+    <container>{{> footer}}</container>
   </wrapper>

@@ -3,53 +3,24 @@ subject: My Email Subject
 ---
 
   <wrapper>
-    <spacer size="30"></spacer>
+    <container>{{> header}}</container>
+    <container class='content'>
+      <spacer size='30'></spacer>
+      <row>
+        <columns small='12' large='10' class='large-offset-1'>
+          <h1 class='text-center'>Want your free trial extended?</h1>
+          <spacer size='15'></spacer>
+          <p class='text-center'>Your trial ended a few days ago. If you're interested in extending your trial for 7 days, just click below:</p>
+          <spacer size='15'></spacer>
+          <center>
+            <button class='success large radius' href='http://zurb.com'>EXTEND MY TRIAL FOR 7 DAYS</button>
+          </center>
+          <p class='text-center'>If you are not interested in extending your trial, or have additional questions, please tell us why. Feel free to reach out to me via <a href='mailto:andreas@pigments.io'>andreas@pigments.io</a></p>
+        </columns>
+        <columns large='1'></columns>
+      </row>
 
-    <container>
-        <center>
-          <img src='http://placehold.it/100x50/EEEEEE'>
-        </center>
+      <spacer size='30'></spacer>
     </container>
-
-    <spacer size="15"></spacer>
-
-    <container class='bg-white'>
-      <spacer size="30"></spacer>
-      <row>
-        <columns>
-          <h1>Want your free trial extended?</h1>
-        </columns>
-      </row>
-
-      <row>
-        <columns small='12' large="8">
-          <p>Your trial ended a few days ago. If you're interested in extending your trial for 7 days, just click below:</p>
-          <spacer size="15"></spacer>
-          <button class="success large radius text-center" href="http://zurb.com">EXTEND MY TRIAL FOR 7 DAYS</button>
-          <p>If you are not interested in extending your trial, or have additional questions, please tell us why. Feel free to reach out to me via <a href='mailto:andreas@pigments.io'>andreas@pigments.io</a></p>
-        </columns>
-      </row>
-
-      <row>
-        <columns>
-          <spacer class='light-gray' size="1.5"></spacer>
-        </columns>
-      </row>
-
-      <row>
-        <columns>
-          <img src='http://placehold.it/70x70/EEEEEE'>
-          <spacer size="5"></spacer>
-
-          <p>Andreas Galster<br>
-          Founder of Pigments</p>
-        </columns>
-      </row>
-    </container>
-
-    <container class='light-gray'>
-      {{> footer}}
-    </container>
-
-    <spacer size="40"></spacer>
+    <container>{{> footer}}</container>
   </wrapper>

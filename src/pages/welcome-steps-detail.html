@@ -1,99 +1,71 @@
 ---
 subject: My Email Subject
 ---
+<wrapper>
+  <container>{{> header}}</container>
+  <container class='content'>
+    <spacer size='30'></spacer>
+    <row>
+      <columns>
+        <h1>Welcome to Pigments</h1>
+      </columns>
+    </row>
+    <row>
+      <columns small='12' large='7'>
+        <p>Pigments helps you with xyz for abc. Here are three ways for you to get the most out of it:</p>
+      </columns>
 
-  <wrapper class='background'>
+      <columns large='5'>
+        <center>
+          <button class='success radius expanded' href='http://zurb.com'>GET STARTED</button>
+        </center>
+      </columns>
+    </row>
+    <spacer size='10'></spacer>
 
-    <spacer size="30"></spacer>
+    <row class='bg-light-gray'>
+      <columns small='12' large='10'>
+        <spacer size='25'></spacer>
+        <h4 class='black'>1. Invite your friends for virality</h4>
+        <p>Inviting your friends will help you get the most out of Pigments. Invite your friends and show them who is da boss while procrastinating.</p>
+        <spacer size='5'></spacer>
+      </columns>
 
-    <container>
-      <row>
-        <columns>
-          <img src='http://placehold.it/100x50/EEEEEE'>
-        </columns>
-      </row>
-    </container>
-
-    <spacer size="15"></spacer>
-
-    <container class='white'>
-      <spacer size="30"></spacer>
-      <row>
-        <columns>
-          <h1>Welcome to Pigments</h1>
-        </columns>
-      </row>
-
-      <row>
-        <columns small='12' large="8">
-          <p>Pigments helps you with xyz for abc. Here are three ways for you to get the most out of it:</p>
-        </columns>
-
-        <columns large="4">
-          <center>
-            <button class="success radius text-center" href="http://zurb.com">GET STARTED</button>
-          </center>
-        </columns>
-      </row>
-      <spacer size="10"></spacer>
-    </container>
-
+      <columns large='2'>
+        <spacer size='25'></spacer>
+        <img src='http://placehold.it/100x100/CCCCCC'>
+      </columns>
+    </row>
 
 
-    <container class='light-gray'>
-      <spacer size="25"></spacer>
-      <row>
-        <columns small='12' large="10">
-          <h2>1. Invite your friends for virality</h2>
-          <p>Inviting your friends will help you get the most out of Pigments. Invite your friends and show them who is da boss while procrastinating.</p>
-        </columns>
+    <row class='bg-light-gray'>
+      <columns small='12' large='10'>
+        <spacer size='25'></spacer>
+        <h4 class='black'>2. Be awesome and talk to people</h4>
+        <p>Inviting your friends will help you get the most out of Pigments. Invite your friends and show them who is da boss while procrastinating.</p>
+        <spacer size='5'></spacer>
+      </columns>
 
-        <columns large="2">
-          <img src='http://placehold.it/100x100/CCCCCC'>
-        </columns>
-      </row>
-      <spacer size="5"></spacer>
-      <row>
-        <columns>
-          <spacer class='gray' size="1.5"></spacer>
-        </columns>
-      </row>
+      <columns large='2'>
+        <spacer size='25'></spacer>
+        <img src='http://placehold.it/100x100/CCCCCC'>
+      </columns>
+    </row>
 
-      <spacer size="10"></spacer>
-      <row>
-        <columns small='12' large="10">
-          <h2>2. Be awesome and talk to people</h2>
-          <p>Inviting your friends will help you get the most out of Pigments. Invite your friends and show them who is da boss while procrastinating.</p>
-        </columns>
 
-        <columns large="2">
-          <img src='http://placehold.it/100x100/CCCCCC'>
-        </columns>
-      </row>
-      <spacer size="5"></spacer>
-      <row>
-        <columns>
-          <spacer class='gray' size="1.5"></spacer>
-        </columns>
-      </row>
+    <row class='bg-light-gray'>
+      <columns small='12' large='10'>
+        <spacer size='25'></spacer>
+        <h4 class='black'>3. Have fun and go out with people or so they say</h4>
+        <p>Inviting your friends will help you get the most out of Pigments. Invite your friends and show them who is da boss while procrastinating.</p>
+      </columns>
 
-      <spacer size="10"></spacer>
-      <row>
-        <columns small='12' large="10">
-          <h2>3. Have fun and go out with people or so they say</h2>
-          <p>Inviting your friends will help you get the most out of Pigments. Invite your friends and show them who is da boss while procrastinating.</p>
-        </columns>
+      <columns large='2'>
+        <spacer size='25'></spacer>        
+        <img src='http://placehold.it/100x100/CCCCCC'>
+      </columns>
+    </row>
 
-        <columns large="2">
-          <img src='http://placehold.it/100x100/CCCCCC'>
-        </columns>
-      </row>
-      <spacer size="5"></spacer>
-    </container>
-
-    <container class='white'>
-      {{> footer}}
-    </container>
-
-    <spacer size="40"></spacer>
-  </wrapper>
+  </container>
+  <container>{{> footer}}</container>
+</wrapper>
