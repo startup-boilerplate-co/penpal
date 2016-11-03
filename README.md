@@ -3,7 +3,7 @@ Penpal is a collection of open-source email templates built on top of [Foundatio
 
 Penpal is part of [startup boilerplate](http://startup-boilerplate.co), an opinionated set of solutions for commonly used startup challenges, including email templates, marketing/sales funnels & integrations, as well as common frontend/backend solutions for things any app needs, such as login forms, email verifications, user permissions, and so on. These solutions are built on top of Polymer, Meteor and GraphQL.
 
-For details on how to use the individual inky components, please refer to the [Foundation for Email docs](http://foundation.zurb.com/emails/docs/)
+For details on how to use the individual inky components, please refer to the [Foundation for Email docs](http://foundation.zurb.com/emails/docs/).
 
 
 ### Using the CLI
