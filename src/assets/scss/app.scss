@@ -1,6 +1,5 @@
 @import 'settings';
-@import 'foundation';
-
+@import 'foundation-emails';
 
 ////////////////////
 // Button border fix
@@ -217,4 +216,10 @@
     color: $dark-gray;
     font-size: 12px;
   }
+}
+
+
+.small {
+	font-size: 11px;
+	margin-bottom: 0;	
 }
